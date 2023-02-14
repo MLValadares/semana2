@@ -1,1 +1,5 @@
-p {color:red;text-align:center;}
+p {
+    font-family: verdana;
+    color:red;
+    text-align:center;
+}
