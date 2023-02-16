@@ -5,3 +5,59 @@ p {
     text-align:center;
 }
 */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+nav {
+    background: #ccc;
+    padding: 20px;
+}
+section{
+    float: right;
+    padding: 20px;
+    width: 80%;
+    background-color: #f1f1f1;
+}
+article::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+aside{
+    float: left;
+    width: 20%;
+    background: rgba(0,183,255,0.51);
+}
+footer {
+    background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+figure {
+    float: left;
+    background-color: ivory;
+    color: darkslateblue;
+    border: 4px solid darkslateblue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+    font-family: arial, sans-serif;
+    box-shadow: 10px 10px 8px #888888;
+}
+figcaption {}
+
+table{
+    background: white;
+}
