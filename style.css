@@ -19,7 +19,7 @@ header{
   font-size: 35px;
   color: white;
 }
-nav {
+nav{
     background: #ccc;
     padding: 20px;
     border-style: solid;
@@ -36,10 +36,15 @@ section{
 section.meio{
     width: 50%;
 }
-section.total{
+section.oito{
     width: 80%;
 }
-
+section.total{
+    width: 100%;
+}
+article{
+    background: rgba(204, 204, 204, 0.51);
+}
 article::after {
   content: "";
   display: table;
