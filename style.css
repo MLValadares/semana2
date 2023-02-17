@@ -26,9 +26,15 @@ nav {
 section{
     float: right;
     padding: 20px;
-    width: 80%;
+    width: 40%;
     background-color: #f1f1f1;
+    border-style: solid;
+    border-width: 1px;
 }
+section.total{
+    width: 80%;
+}
+
 article::after {
   content: "";
   display: table;
@@ -38,6 +44,8 @@ aside{
     float: left;
     width: 20%;
     background: rgba(0,183,255,0.51);
+    border-style: solid;
+    border-width: 1px;
 }
 footer {
     background-color: #777;
