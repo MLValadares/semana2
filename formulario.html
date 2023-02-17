@@ -5,18 +5,7 @@
     <title>LEI - Talent Show [FORMULARIO]</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="icon" type="image/x-icon" href="img/iscte_logo.png">
-    <style>
 
-fieldset {
-  font-size:12px;
-  padding:10px;
-  width:250px;
-  line-height:1.8;}
-p{
-    font-size: 20px;
-    color:red;}
-
-</style>
 
 </head>
 <body>
@@ -27,84 +16,98 @@ p{
 		<h1>LEI - Talent Show</h1>
 	</header>
     <nav>
-		<p><a href="formulario.html">Formulário</a></p>
+		<p><a href="main.html">Retomar ao Menu Principal</a></p>
 	</nav>
 	<h1> Formulário de inscrição de Performances Artísticas</h1>
 	<p><strong>Insira os seus dados nos campos abaixos e clique em submeter para se inscrever no concurso de talentos:</strong></p>
 
-    <form name="input" action="paginaDeProcessamento">
+    <article>
 
-        <label for="nome"><strong>Nome:</strong></label>
-        <input type="text" name="nome" id="nome">
+        <form name="input" action="paginaDeProcessamento">
+        <section>
+            <label for="nome"><strong>Nome:</strong></label>
+            <input type="text" name="nome" id="nome">
         <br>
 
-        <label for="num"><strong>Número:</strong></label>
-        <input type="text" name="num" id="num">
-        <br>
-
-
-        <label for="data"><strong>Data de Nascimento:</strong> </label>
-        <input type="date" name="dataniv" id="data">
+            <label for="num"><strong>Número:</strong></label>
+            <input type="text" name="num" id="num">
         <br>
 
 
-        <label for="email"><strong>Email:</strong></label>
-        <input type="email" id="email">
+            <label for="data"><strong>Data de Nascimento:</strong> </label>
+            <input type="date" name="dataniv" id="data">
         <br>
 
 
-        <label for="cor"><strong>Indique a sua cor favorita:</strong></label>
-        <input type="color" name="favcolor" id="cor">
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" id="email">
         <br>
 
 
-        <label for="contact"><strong>Contacto:</strong></label>
-        <input type="tel" name="contact" id="contact">
+            <label for="cor"><strong>Indique a sua cor favorita:</strong></label>
+            <input type="color" name="favcolor" id="cor">
         <br>
 
 
-        <label for="url"><strong>Link para a sua página pessoal:</strong></label>
-        <input type="url" name="linkpersonal" id="url">
+            <label for="contact"><strong>Contacto:</strong></label>
+            <input type="tel" name="contact" id="contact">
         <br>
 
 
-        <label for="perform"><strong>Titulo da Performance:</strong></label>
-        <input type="text" name="titulo" id="perform">
+            <label for="url"><strong>Link para a sua página pessoal:</strong></label>
+            <input type="url" name="linkpersonal" id="url">
         <br>
 
 
-        <label for="descri"><strong>Descrição:</strong></label>
-        <input type="text" name="descricao" id="descri">
+            <label for="perform"><strong>Titulo da Performance:</strong></label>
+            <input type="text" name="titulo" id="perform">
         <br>
 
 
-        <strong>Escolha o tipo de categoria da sua atuação:</strong>
-        <input list = "listas" name="list" id="l1">
-        <datalist id="listas">
-            <option value="Dança">
-            <option value="Cantar">
-            <option value="Comédia">
-
-        </datalist>
+            <label for="descri"><strong>Descrição:</strong></label>
+            <input type="text" name="descricao" id="descri">
+        <br>
 
 
+            <strong>Escolha o tipo de categoria da sua atuação:</strong>
+            <input list = "listas" name="list" id="l1" size="25">
+            <datalist id="listas">
+                <option value="Dança">
+                <option value="Cantar">
+                <option value="Comédia">
+                <option value="Tocar Instrumento Musical">
 
-    <br>
-        <div>
+
+            </datalist>
 
 
-    <fieldset >
-        <legend>Horário que pretende atuar</legend>
-        <input type="radio" name="gr1" value="1º Espetáculo: 3PM--3:50PM" id="gr1"><label for="gr1">1º Espetáculo: <span style="color:deepskyblue">3PM--3:50PM</span></label><br>
-        <input type="radio" name="gr1" value="2º Espetáculo: 4PM--4:50PM" id="gr2"><label for="gr2">2º Espetáculo: <span style="color:deepskyblue">4PM--4:50PM</span></label><br>
-        <input type="radio" name="gr1" value="3º Espetáculo: 5PM--5:50PM" id="gr3"><label for="gr3">3º Espetáculo: <span style="color:deepskyblue">5PM--5:50PM</span></label><br>
-        <input type="radio" name="gr1" value="4º Espetáculo: 6PM--6:50PM" id="gr4"><label for="gr4">4º Espetáculo: <span style="color:deepskyblue">6PM--6:50PM</span></label>
-   </fieldset>
-             </div>
+        </section>
+        <section>
     <br>
 
-    <a href="indice.html"> <input type="button" value="Submeter"></a><input type ="reset" value ="Apagar">
-	</form>
-	<a href="indice.html">Voltar para a página inicial</a>
+
+
+        <fieldset >
+            <legend>Horário que pretende atuar</legend>
+            <input type="radio" name="gr1" value="1º Espetáculo: 3PM--3:50PM" id="gr1"><label for="gr1">1º Espetáculo: <span style="color:blue">3PM--3:50PM</span></label><br>
+            <input type="radio" name="gr1" value="2º Espetáculo: 4PM--4:50PM" id="gr2"><label for="gr2">2º Espetáculo: <span style="color:blue">4PM--4:50PM</span></label><br>
+            <input type="radio" name="gr1" value="3º Espetáculo: 5PM--5:50PM" id="gr3"><label for="gr3">3º Espetáculo: <span style="color:blue">5PM--5:50PM</span></label><br>
+            <input type="radio" name="gr1" value="4º Espetáculo: 6PM--6:50PM" id="gr4"><label for="gr4">4º Espetáculo: <span style="color:blue">6PM--6:50PM</span></label>
+        </fieldset>
+
+    <br>
+            <a href="main.html"> <input type="button" value="Submeter"></a><input type ="reset" value ="Apagar">
+
+        </section>
+	    </form>
+    </article>
+    <footer>
+        <h2>Contactos</h2>
+          <ul>
+            <li>Email: geral.lei@iscte-iul.pt</li>
+            <li>Email alternativo: joana.soares@iscte-iul.pt</li>
+            <li>Telemóvel: 981234567</li>
+          </ul>
+      </footer>
 </body>
 </html>

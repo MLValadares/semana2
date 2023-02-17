@@ -2,7 +2,7 @@
 p {
     font-family: verdana;
     color:red;
-    text-align:center;
+    /*text-align:center;
 }
 */
 
@@ -68,6 +68,14 @@ figure {
     box-shadow: 10px 10px 8px #888888;
 }
 figcaption {}
+
+fieldset{
+  font-family: bolder;
+  font-size:15px;
+  padding:10px;
+  width:250px;
+  line-height:1.8;
+}
 
 table{
     background: white;
