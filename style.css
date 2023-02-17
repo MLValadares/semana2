@@ -52,7 +52,7 @@ article::after {
   clear: both;
 }
 aside{
-    float: left;
+    position: absolute;
     width: 20%;
     background: rgba(0,183,255,0.51);
     border-style: solid;
